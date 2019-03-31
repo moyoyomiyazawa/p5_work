@@ -6,7 +6,7 @@ let angle = 0;
 let y = 50;
 
 function customRandom() {
-	let retValue = 1 - noise(random()) ** 5;
+	let retValue = 1 - noise(random(10)) ** 5;
 	return retValue;
 }
 
